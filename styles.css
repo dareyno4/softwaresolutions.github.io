@@ -1,0 +1,203 @@
+.header {
+    background-color: #2998ff;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.header h1 {
+    font-size: 40px;
+    margin: 10px 0px 30px 0px;
+}
+.b1 {
+    background-color:#0068ff;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    margin: 0px 10px 0px 0px;
+    font-weight: 700;
+}
+.b1:hover {
+    background-color: #004ecb;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.b2:hover {
+    background-color: #1e9e5a;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.b2 {
+    background-color: #26b66d;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    font-weight: 700;
+}
+.core {
+    margin: 100px 0px 100px 0px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middle {
+    background-color: white;
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.middle.is-visible {
+    opacity: 1;
+    transform: none;
+    background-color: white;
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.middle h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    background-color: white;
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.intro.is-visible {
+    opacity: 1;
+    transform: none;
+    background-color: white;
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    background-color: rgb(249, 246, 246);
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.features.is-visible {
+    opacity: 1;
+    transform: none;
+    background-color: rgb(249, 246, 246);
+    margin: 50px 150px 50px 150px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.highlight {
+    color:#1e9e5a;
+}
+.highlight2 {
+    color:#0068ff;
+}
+p {
+    line-height: 1.6;
+    font-weight: 350;
+}
+li {
+    margin: 10px 0px 10px 20px;
+    font-weight: 350;
+}
+.features li::marker {
+    color: #2998ff;
+    font-weight: bold;
+}
+
+.intro li::marker {
+    color: #1e9e5a;
+    font-weight: bold;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.calendar {
+  background: #3A7BD5;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 2px;
+}
+
+.chart {
+  background: #1e9e5a;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 2px;
+}
+
+.video {
+  background: #0068ff;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 2px;
+}
+.custom {
+  background: #1e9e5a;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 2px;
+}
+
+.middle p {
+    text-align: center;
+}
+.middle .b1 {
+    margin-left: 42%
+}
